@@ -25,6 +25,7 @@ const CATEGORIES = {
     { name: "healthcare", range: [100, 1000] },
     { name: "education", range: [200, 1000] },
     { name: "travel", range: [500, 2000] },
+    { name: "electricity", range: [100, 2000] },
   ],
 };
 

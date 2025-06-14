@@ -70,9 +70,9 @@ const LandingPage = () => {
           </div>
         </div>
       </section>
-
+                         
       {/* Testimonials Section */}
-      <section id="testimonials" className="py-20">
+      {/* <section id="testimonials" className="py-20">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-16">
             What Our Users Say
@@ -102,7 +102,7 @@ const LandingPage = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
       <section className="py-20 bg-blue-600">
@@ -110,16 +110,16 @@ const LandingPage = () => {
           <h2 className="text-3xl font-bold text-white mb-4">
             Ready to Take Control of Your Finances?
           </h2>
-          <p className="text-blue-100 mb-8 max-w-2xl mx-auto">
+          {/* <p className="text-blue-100 mb-8 max-w-2xl mx-auto">
             Join thousands of users who are already managing their finances
             smarter with Welth
-          </p>
+          </p> */}
           <Link href="/dashboard">
             <Button
               size="lg"
               className="bg-white text-blue-600 hover:bg-blue-50 animate-bounce"
             >
-              Start Free Trial
+              Start now
             </Button>
           </Link>
         </div>
